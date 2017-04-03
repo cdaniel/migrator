@@ -1,0 +1,19 @@
+{
+  "name": "migrator",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mongoose": "4.9.2",
+    "q": "*",
+    "express": "*",
+    "cfenv" : "*",
+    "underscore" : "*"
+  },
+  "engines": {
+    "node": "6.7.0",
+    "npm": "3.10.9"
+  }
+}

@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: migrator
+  host: migrator
+  disk_quota: 512M
+  timeout: 60
+  services:
+  - mongodb-atlas2main
+  - mongo-for-atlas
+  buildpack: sdk-for-nodejs
+  env:
+      NODE_MODULES_CACHE: false
